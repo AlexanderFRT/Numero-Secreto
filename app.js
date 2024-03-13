@@ -49,6 +49,7 @@ function limpiarCaja() {
     document.querySelector('#valorUsuario').value = '';
 }
 
+// Reinicia el juego desde su condición base
 function condicionesIniciales() {
     asignarTextoElemento('h1','Juego del número secreto');
     asignarTextoElemento('p','Indica un número del 1 al '+NumeroMaximo+'');
